@@ -115,6 +115,7 @@ class _FeedbackpageState extends State<Feedbackpage> {
                             curve: Curves.easeOutBack,
                             child: FeedbackTemplate(
                               image: 'assets/recent_works/naruto.jpg',
+                              text: "Yeah! I have got my favourite recipes ...",
                               // projectCategory: "App Development",
                               // projectTitle: "Recipe App",
                             ),
@@ -127,6 +128,7 @@ class _FeedbackpageState extends State<Feedbackpage> {
                         curve: Curves.easeOutBack,
                         child: FeedbackTemplate(
                           image: "assets/background/back1.jpg",
+                          text: "This is wonderful App ...",
                           // projectCategory: "App Development",
                           // projectTitle: "Social Media App",
                         ),
@@ -143,6 +145,7 @@ class _FeedbackpageState extends State<Feedbackpage> {
                           delay: const Duration(milliseconds: 700), // Staggered animation
                           curve: Curves.easeOutBack,
                           child: FeedbackTemplate(
+                            text: "Yo ! the UI is wonderfulll...",
                             image: "assets/background/back2.jpg",
                             // projectCategory: "App Development",
                             // projectTitle: "Nike App",
@@ -155,6 +158,7 @@ class _FeedbackpageState extends State<Feedbackpage> {
                         curve: Curves.easeOutBack,
                         child: FeedbackTemplate(
                           image: "assets/recent_works/recipe_app.jpg",
+                          text: "Now I can list all of my projects at once place ...",
                           // projectCategory: "App Development",
                           // projectTitle: "Projects App",
                         ),

@@ -36,7 +36,10 @@ class StartingNewProject extends StatelessWidget {
           child: Container(
             child: Row(
               children: [
-                Padding(padding:EdgeInsets.only(right: 0,left: screenWidth*0.03),child:  Container(child: SvgPicture.asset("assets/svg_image/mail.svg"))),
+                Padding(padding:EdgeInsets.only(right: 0,left: screenWidth*0.03),
+                child:  Container(
+                  width: screenWidth*0.02,
+                  child: SvgPicture.asset("assets/svg_image/email.svg"))),
                 Padding(
                   padding: EdgeInsets.only(right: 0.0,left: 0),
                   child: VerticalDivider(color: Colors.black,indent: 250,endIndent:250,thickness: screenWidth*0.001,),

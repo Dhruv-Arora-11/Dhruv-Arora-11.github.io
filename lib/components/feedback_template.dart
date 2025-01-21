@@ -3,7 +3,8 @@ import 'package:hovering/hovering.dart'; // Import the package
 
 class FeedbackTemplate extends StatelessWidget {
   final String image;
-  FeedbackTemplate({super.key, required this.image});
+  final String text;
+  FeedbackTemplate({super.key, required this.image, required this.text});
 
   @override
   Widget build(BuildContext context) {
@@ -54,7 +55,7 @@ class FeedbackTemplate extends StatelessWidget {
             // Background Card (already inside HoverAnimatedContainer)
             Center(
               child: Text(
-                'Feedback Card',
+                '$text',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: screenHeight * 0.02,
@@ -74,7 +75,7 @@ class FeedbackTemplate extends StatelessWidget {
             // Image Section (hover effect on the image as well)
             Positioned(
               top: screenHeight * -0.027, // Adjust top position
-              left: screenWidth * 0.08,
+              left: screenWidth * 0.05,
               child: HoverAnimatedContainer(
                 height: screenHeight * 0.055,
                 width: screenWidth * 0.035,

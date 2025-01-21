@@ -113,8 +113,8 @@ class _ServicesPageState extends State<ServicesPage> {
                       duration: const Duration(milliseconds: 900),
                       delay: const Duration(milliseconds: 200),
                       child: ServiceTemplate(
-                        ServiceName: "Graphics Design",
-                        svgImage: "assets/svg_image/pencil_ruler.svg",
+                        ServiceName: "App Development",
+                        svgImage: "assets/svg_image/android.svg",
                         myColor: const Color(0xFFD9FFFC),
                       ),
                     ),
@@ -123,7 +123,7 @@ class _ServicesPageState extends State<ServicesPage> {
                       duration: const Duration(milliseconds: 900),
                       delay: const Duration(milliseconds: 400),
                       child: ServiceTemplate(
-                        ServiceName: "Web Design",
+                        ServiceName: "Web Development",
                         svgImage: "assets/svg_image/computer.svg",
                         myColor: const Color(0xFFE4FFC7),
                       ),
@@ -133,7 +133,7 @@ class _ServicesPageState extends State<ServicesPage> {
                       duration: const Duration(milliseconds: 900),
                       delay: const Duration(milliseconds: 600),
                       child: ServiceTemplate(
-                        ServiceName: "UI Design",
+                        ServiceName: "Desktop Development",
                         svgImage: "assets/svg_image/diamond.svg",
                         myColor: const Color(0xFFFFF3DD),
                       ),
@@ -143,7 +143,7 @@ class _ServicesPageState extends State<ServicesPage> {
                       duration: const Duration(milliseconds: 900),
                       delay: const Duration(milliseconds: 800),
                       child: ServiceTemplate(
-                        ServiceName: "Interaction Design",
+                        ServiceName: "IOS Development",
                         svgImage: "assets/svg_image/rocket.svg",
                         myColor: const Color(0xFFFFE0E0),
                       ),
